@@ -1,6 +1,6 @@
 # Rinkeby faucet
 
-This project is a minimal API which do test transactions between two eth wallets throught a Infura node.
+This project is a minimal API which do test transactions between two eth wallets through a Infura node.
 
 ## Installation & Configuration
 
@@ -14,11 +14,11 @@ This project is a minimal API which do test transactions between two eth wallets
     * Locally
         * Install dependencies: `npm install`
         * Run local server: `npm start`
-    * Docker: `sudo docker up 5500:5500 -d example`
+    * Docker: `docker up 5500:5500 -d example`
 
 ## Usage
 
-Sent a "send money" request to the server:
+Send a "send money" request to the server:
 
 ```bash
 WALLET_ADDRESS="0x0000000000000000000000000000000000000000"
